@@ -4,3 +4,6 @@ def fun(n, ret):
     else:
         print('zly index')
 fun(0,'')
+fun(3,'kuk')
+fun(6,'kamikadze')
+fun(0,' ')
