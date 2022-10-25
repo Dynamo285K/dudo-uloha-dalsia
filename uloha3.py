@@ -1,13 +1,16 @@
 def fun(ret:str)->str:
-    x=''
+    x=True
+    y=False
+
     vowels = "aeiou"
     for i in range(len(ret)):
         if ret[i] in vowels:
 
-            print("true")
+            print(bool(x))
         else:
-            print("False")
+            print(bool(y))
             break
+
 
 
 
